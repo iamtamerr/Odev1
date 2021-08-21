@@ -1,0 +1,7 @@
+Ders - 6
+
+float
+Integer değişkenlerini de kapsayan float değişkeni ondalıklı sayılara ihtiyacımız olduğunda kullandığımız değişkendir. Float değişkenlr %f şeklinde ekrana yazdırılır.
+
+Tanımlama:
+	Değişkentürü Değişkenadı = Veri;

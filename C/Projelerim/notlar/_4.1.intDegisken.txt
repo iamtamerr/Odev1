@@ -1,0 +1,10 @@
+Ders - 4
+
+int değişken
+Program üzerinde aritmetik işlem yapmak için kullanılan değişkenlerdir. Fakat bu işlemleri sadece tam sayı üzerinde gerçekleştiriyor. Virgüllü sayılarda sadece sayının tam kısmını alır. 
+	Tanımlama:
+		DeğişkenTürü DeğişkenAdı = Veri
+
+
+String değişkenleri ekrana yazdırmak için %s kullanılıyordu fakat integer değişkenleri ekrana yazdırmak için %d kullanırız. %d ifadesi decimal (onluk sistem) kelimesinden gelir
+	

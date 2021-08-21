@@ -1,0 +1,7 @@
+Ders - 3
+
+scanf
+Klavyeden yani kullanıcıdan veri beklenen durumlarda scanf kullanılır. Boşluktan sonraki karakterleri almaz.
+Örnek kullanım :
+	printf("Kitabin Adini Giriniz: ");
+	scanf("%s", kitapad);

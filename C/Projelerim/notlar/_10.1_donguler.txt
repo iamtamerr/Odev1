@@ -1,0 +1,17 @@
+Ders - 10
+
+Döngüler
+Tekrar gerektiren durumlarda kullanılan programlama yapılarıdır. Örneğin "Merhaba Dünya" yazısını 100 kere yazdırmak istersek döngü kullanabiliriz.
+
+For döngüsünün 3 tane parametresi vardır:
+	Başlangıç --> Bitiş --> Artış Miktarı
+
+Örnek kullanım:
+
+	int i;
+	
+	for(i = 0; i <= 50; i++)
+	{
+		printf("Merhaba Dunya\n");
+	}
+	

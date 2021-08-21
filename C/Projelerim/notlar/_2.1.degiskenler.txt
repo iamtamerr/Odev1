@@ -1,0 +1,49 @@
+Ders - 2
+
+Uygun veri tipini uygun değişkenlere tanımlamamız gerekiyor. 
+Veri tipleri:
+1 - string
+2 - int 
+3 - double
+4 - float
+5 - char
+6 - long
+7 - short
+
+1 - string
+Harf dizinleri ve metinler için kullanılan veri türüdür. Üzerinde herhangi bir işlem yapılamaz.
+
+2 - int
+Uzun hali integer'dır. Tam sayıları tanımlamak için kullanılan veri türüdür.
+
+3 - double
+Ondalıklı değişkenler için kullanılan veri türüdür. Bellekte 8 byte yer kaplar.
+
+4 - float
+Ondalıklı değişkenler için kullanılan veri türüdür. Double'dan farkı bellekte 4 byte yer kaplamasıdır.
+
+5 - char
+Tek karakter değişkenler için kullanılır.
+
+6 - long
+En büyük tam sayı değerleri için kullanılır.
+
+7 - short
+Küçük tam sayı değerleri için kullanılır.
+
+------------------------------------------------------------------------
+
+String ifadeler bellekte harf harf tutulur. Örneğin "Tamer" ifadesi bellekte "T","a","m","e","r" şeklinde tutulur.
+
+
+index
+Bellekteki konumu gösterir. Bilgisayarlarda indexler her zaman 0'dan başlar.
+
+
+Bellekte bir değişkene atanan alan en büyük değer referans alınarak atanmalıdır.
+
+
+Değişken nasıl tanımlanır : değişkentürü değişkenadı = veri;
+
+
+"%s" komutu değişken yazdırmak için kullanılan komuttur. Tam adı scan'dır ve ekranda göstermek, listelemek anlamına gelir. Örnek kullanım : printf("%s",kitapadi);

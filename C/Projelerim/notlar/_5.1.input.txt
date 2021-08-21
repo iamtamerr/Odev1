@@ -1,0 +1,6 @@
+Ders - 5
+
+int değişkeniyle birlikte klavyeden veri almak için scanf fonksiyonunu kullandığımız zaman adres operatörü olarak & işaretini kullanırız. 
+Örnek Kullanım:
+	printf("Sayi giriniz: ");
+	scanf("%d",&sayi)
