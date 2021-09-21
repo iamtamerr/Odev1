@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 
 int main() {
 	
@@ -21,12 +21,7 @@ int main() {
 	
 	toplam = misir*2 + kola*2 + su*1 + bilet*8;
 	
-	printf("Odemeniz gereken tutar %d TL.", toplam);
-
-	
-	
-	
-	
+	printf("Odemeniz gereken tutar %d TL.", toplam);	
 	
 	return 0;
 }
