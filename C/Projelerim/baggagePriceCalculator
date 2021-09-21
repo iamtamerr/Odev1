@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main() {
-	
-	
 	
 	int bagaj,el,fk;
 	
@@ -18,10 +15,6 @@ int main() {
 	fk = ((bagaj - 15) + (el-8)) * 5;
 	
 	printf("Odemeniz gereken tutar %d TL",fk);
-	
-	
-	
-	
 	
 	return 0;
 }
