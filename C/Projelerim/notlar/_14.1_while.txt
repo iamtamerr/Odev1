@@ -1,9 +1,0 @@
-Ders - 14
-
-Bir ya da bir grup deyimin, belli bir koşul sağlandığı sürece tekrarlanması
-için kullanılan bir denetim yapısıdır. Sözdizimi şöyledir:
-
-While(şart)
-{
-işlemler
-}
