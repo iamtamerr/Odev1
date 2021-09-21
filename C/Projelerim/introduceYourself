@@ -5,11 +5,11 @@
 int main(int argc, char *argv[]) {
 	printf("*********Kisi Bilgi***************");
 	printf("\n\n");
-	printf("Ad: Baran\n");
-	printf("Soyad: Yucedag\n");	
-	printf("Meslek: Ogretmen\n");
-	printf("Maas: 2500\n");
-	printf("Semt: Seyhan\n\n");
+	printf("Ad: Tamer\n");
+	printf("Soyad: Kanak\n");	
+	printf("Meslek: Ogrenci\n");
+	printf("Maas: 650\n");
+	printf("Semt: Efeler\n\n");
 	printf("*******************************");
 	
 	
