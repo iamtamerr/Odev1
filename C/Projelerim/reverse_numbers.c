@@ -7,7 +7,7 @@ int main() {
 	
 	int i,n,j;
 	
-	printf("Eleman Sayisi: ");
+	printf("Number of Elements: ");
 	scanf("%d",&n);
 	
 	int dizi[n];
