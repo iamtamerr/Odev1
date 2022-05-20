@@ -19,7 +19,7 @@ int *random_number(int digit)
     for(count=0; count<digit; count++){     
 		org_serie[count] = rand()%10;  
 		
-		// İlk eleman 0 olmaması için if blogu
+		// Ãlk eleman 0 olmamasÃ½ iÃ§in if blogu
 		
         if(count == 0 && org_serie[0] == 0){
         	org_serie[0] = rand()%9 + 1;
@@ -135,14 +135,14 @@ int main() {
 	scanf("%d",&digit);
 
 	
-	// Rastgele Sayı Üretir ve Sayıyı Tekrarsız Yapar
+	// Rastgele SayÃ½ Ãœretir ve SayÃ½yÃ½ TekrarsÃ½z Yapar
     org_serie = random_unique_number(digit);
     
     	
-	// Tahmin ve Kontrol Kısmı	
+	// Tahmin ve Kontrol KÃ½smÃ½	
 	do{
 		
-		// Tahmin Yapılan Bölüm
+		// Tahmin YapÃ½lan BÃ¶lÃ¼m
 		printf("Enter a guess=");
 		scanf("%d",&guess);
 		
@@ -150,12 +150,12 @@ int main() {
 		
 		i = 1; 
 		
-		// Tahmin Edilen Sayı Basamaklarına Ayrılır ve Diziye Ekler
+		// Tahmin Edilen SayÃ½ BasamaklarÃ½na AyrÃ½lÃ½r ve Diziye Ekler
 		int *guess_serie = guess_divider(guess, digit);
 			
 		i = 1; 
 		
-		// Üretilen Sayı ve Tahmin Arasında Karşılaştırma Yapılır
+		// Ãœretilen SayÃ½ ve Tahmin ArasÃ½nda KarÃ¾Ã½laÃ¾tÃ½rma YapÃ½lÃ½r
 		counter1 = comparison(org_serie, guess_serie, guess,digit);
 
 		guess_counter++;
@@ -168,7 +168,7 @@ int main() {
 	
 	
 		
-	// Tahmin Edilen Sayıların Sıralanıp Diziye Aktarıldığı Kısım	
+	// Tahmin Edilen SayÃ½larÃ½n SÃ½ralanÃ½p Diziye AktarÃ½ldÃ½Ã°Ã½ KÃ½sÃ½m	
 	sorting(guess_counter,guess_elements);
       
 		
