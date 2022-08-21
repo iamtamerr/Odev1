@@ -185,17 +185,11 @@ int main() {
 	cout << "Student registration has completed" << endl;
 	cout << "The entered information is listed." << endl;
 	
-	stu[0].list(stu);
+	stu[0].list(stu); cout << endl;
 	
-	cout << endl;
+	sortingByName(stu); cout << endl;
 	
-	sortingByName(stu);
-	
-	cout << endl;
-	
-	searchByName(stu);
-	
-	cout << endl;
+	searchByName(stu); cout << endl;
 	
 	highestGrade(stu);
 	
